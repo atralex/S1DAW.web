@@ -1,0 +1,291 @@
+body {
+margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+header img {
+width: 100%;
+height: 250px;
+}
+#principal {
+    background-color: rgb(233, 233, 233);
+    height: 100%;
+}
+
+nav {
+    background-color: rgb(233, 233, 233);
+    width: 20%;
+    height: 100%;
+    float: left;
+  
+
+}
+#contenido {
+    background-color: rgb(233, 233, 233);
+    width: 80%;
+    height: 100%;
+    float: left;
+
+}
+footer {
+background-color: black;
+color: gold;
+font-size: 30px;
+text-align: center;
+padding: 6px;
+height: 50px;
+
+
+}
+.cb {
+    clear: both;
+}
+nav ul , nav li {
+padding: 0;
+margin: 0;
+
+}
+nav li {
+list-style-type: none;
+text-align: center;
+color: white ;
+font-size: 22px;
+border: solid 1px black;
+padding: 20px;
+border-radius: 10px;
+background-color: rgb(100, 84, 245);
+}
+nav ul li:hover {
+color:black;
+background-color: white;
+
+}
+.etiqueta {
+    font-size: 30px;
+    color:rgb(131, 53, 255);
+}
+
+#contenido img {
+    width:  100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.pagina {
+    text-align: center;
+}
+#parrafo p{
+    margin: auto 100px auto 30px;
+    font-size: 15px;
+}
+#tablas h2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(45, 189, 189);
+}
+#tablas p{
+    margin: auto auto auto 30px;
+    font-size: 20px;
+}
+#tablas table {
+    width: 80%;
+    margin: 0 auto 0 auto;
+
+}
+#tdef th {
+    background-color: rgb(250, 148, 148);
+
+}
+#tdef td {
+    background-color: rgb(166, 193, 245);
+    text-align: center;
+}
+#tdef h3{
+    text-align: center;
+}
+#tcomb h3{
+text-align: center;
+} 
+#tparimpar h3{
+    text-align: center;
+}
+#tcomb td{
+    text-align: center;
+
+}
+#tparimpar td{
+    text-align: center;
+
+}
+#tparimpar tr:nth-child(even) td{
+    background-color: rgb(207, 207, 207);
+  }
+#tparimpar tr:nth-child(odd) td{
+    background-color: rgb(107, 107, 107);
+  }
+  #tparimpar tr:nth-child(odd) th{
+    background-color: rgb(255, 255, 255);
+  }
+  #horario h3{
+      text-align: center;
+  }
+  #horario table{
+      text-align: center;
+      border: 0px;
+      width: 90%;
+  }
+  #horario table, #horario th, #horario td {
+      border: solid black 1px;
+    
+  }
+  .fol{
+      background-color: #FED131;
+  }
+  .ende{
+      background-color:#8080C0;
+  }
+  .bdd{
+    background-color: #80FF80;
+  }
+  .prog{
+      background-color: #95DC98;
+  }
+  .ing{
+      background-color: #EFF0C8;
+  }
+  .sisi{
+      background-color: #C8A1C9;
+  }
+  .lm{
+      background-color: #FD8081;
+  }
+  .titulo{
+      color: #1D827B;
+      font-size: 30px;
+      background-color: #F0F0F0;
+      text-align: center;
+  }
+  .dia {
+      color: #1D827B;
+      background-color: #F0F0F0;
+  }
+  .hora {
+      width: 20px;
+      background-color: #F0F0F0;
+  }
+#customo li{
+      list-style-type: lower-alpha;
+
+  }
+#customo li li li{
+    list-style-image: url(../Img/corazon16.png);
+}
+#customo li li{
+  list-style-type: upper-roman;
+    
+}
+
+#registro fieldset{
+    margin: auto auto auto 20px;
+    width: 40%;
+    border-color: rgb(255, 0, 0);
+}
+#fdatos fieldset{
+    margin: auto auto auto 20px;
+    width: 30%;
+    border-color: rgb(13, 0, 197);
+}
+#fdatos #sexo{
+   border-color: rgb(230, 17, 219);
+   width: 40%;
+}
+#fdatos #afic{
+    border-color: rgb(8, 210, 236);
+    width: 40%;
+}
+#fdatos #sexo legend{
+    font-size: 20px;
+}
+#fdatos #afic legend{
+    font-size: 20px;
+}
+#formu h2{
+    margin: auto auto auto 30px;
+}
+#formu p{
+    margin: auto 100px auto 30px;
+}
+
+.raptor{
+    margin-left: 10%;
+}
+#multimedia h2{
+        font-size: 20x;
+        text-align: center;
+        color: darkblue;
+    }
+#multimedia h3{
+    margin-left: 20px;
+}
+#mp4 h3{
+   text-align: center;
+}
+#ogg h3{
+    margin: auto auto auto auto;
+}
+#ogg h1{
+    font-size: 40px;
+    text-align: center;
+    color: darkblue;
+}
+#ogg h2{
+    font-size: 30px;
+    text-align: center;
+    color: darkcyan;
+}
+#ogg h3{
+    text-align: center;
+}
+#mp4 h1{
+    font-size: 40px;
+    text-align: center;
+    color: darkblue;
+}
+#mp4 h2{
+    font-size: 30px;
+    text-align: center;
+    color: darkcyan;
+}
+#webm h3{
+    text-align: center;
+}
+#webm h1{
+    font-size: 40px;
+    text-align: center;
+    color: darkblue;
+}
+#webm h2{
+    font-size: 30px;
+    text-align: center;
+    color: darkcyan;
+}
+#listas h2{
+    font-size: 20x;
+    margin-left: 5%;
+    color: darkblue;
+}
+#form .formulario{
+   margin-left: 20px;
+}
+#form fieldset{
+    margin: 10% 60% 10% auto;
+    border-color: cornflowerblue;
+}
+#form legend{
+    font-size: 20px;
+}
+.video{
+   font-size: 20px;
+}
+

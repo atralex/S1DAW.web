@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="img/computer.jpg" alt="computer">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formu.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>Form Html5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="tablas">
+                    <h1 class="titulo">Tablas</h1>
+                    <h2>Tabla por defecto</h2>
+                        <p>Las tablas se diseñan usando las etiquetas <span class="etiqueta"> table</span>,<span
+                                class="etiqueta"> tr</span>,<span class="etiqueta"> th</span>,<span class="etiqueta">
+                                td</span> </p>
+                    
+                    <div id="tdef">
+                        <h3>Tablas por defecto</h3>
+                        <table border="1">
+                            <thead>
+                                <th>titulo</th>
+                                <th>titulo</th>
+                                <th>titulo</th>
+                                <th>titulo</th>
+                            </thead>
+                            <tbody>
+                                <td>contenido</td>
+                                <td>contenido</td>
+                                <td>contenido</td>
+                                <td>contenido</td>
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <div id="tcomb">
+                        <h3>Tablas combinada</h3>
+                        <table border="1">
+                            <thead>
+                                <th colspan="2">titulo</th>
+                                <th>titulo</th>
+                                <th>titulo</th>
+                            </thead>
+                            <tbody>
+                                <td rowspan="2">contenido</td>
+                                <td>contenido</td>
+                                <td>contenido</td>
+                                <td>contenido</td>
+                                <tr>
+                                    <td>contenido</td>
+                                    <td>contenido</td>
+                                    <td>contenido</td>
+
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <div id="tparimpar">
+                        <h3>Tablas par impar</h3>
+                        <table border="1">
+                            <thead>
+                                <th>titulo</th>
+                                <th>titulo</th>
+                                <th>titulo</th>
+                                <th>titulo</th>
+                            </thead>
+                            <tbody>
+                                <td>contenido</td>
+                                <td>contenido</td>
+                                <td>contenido</td>
+                                <td>contenido</td>
+                                <tr>
+                                    <td>contenido</td>
+                                    <td>contenido</td>
+                                    <td>contenido</td>
+                                    <td>contenido</td>
+
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <div id="horario">
+                        <h3>Horario</h3>
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <td colspan="6" class="titulo"><em>S1DAW</em></td>
+                                </tr>
+                                <th class="hora">/~\</th>
+                                <th class="dia">Lunes</th>
+                                <th class="dia">Martes</th>
+                                <th class="dia">Miercoles</th>
+                                <th class="dia" colspan="1.5">Jueves</th>
+                                <th class="dia" colspan="1.5">Viernes</th>
+                                
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="hora">8.15 <br> 9.10</td>
+                                    <td class="fol">FOL <br> Prud. Ga, Es <br> (1 B-301) <br> FOL</td>
+                                    <td class="ende">ENDE <br> Polo. Or, Ed <br> (1 B-301) <br> ENDE</td>
+                                    <td rowspan="2" class="bdd">BDD <br> Ber. Be, Cr <br> (1 B-301) <br> BDD</td>
+                                    <td class="ing" colspan="1.5">ING <br> Guti. Sa, JoAn <br> (1 B-301) <br> ING</td>
+                                    <td class="lm" rowspan="2" colspan="1.5">LMSG <br> Puli. Mo, FrJo <br> (1 B-301) <br>LMSG</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td class="hora">9:10 <br> 10:05</td>
+                                    <td rowspan="2" class="sisi">SISI <br> Mart. Ru, To <br> (1 B-301) <br> SISI</td>
+                                    <td class="ing">ING <br> Guti. Sa, JoAn <br> (1 B-301) <br> ING</td>
+                                    <td class="fol" colspan="1.5">FOL <br> Prud. Ga, Es <br> (1 B-301) <br> FOL</td>
+                                    
+                                    
+
+                                </tr>
+                                <tr>
+                                    <td class="hora">9:10 <br> 10:05</td>
+                                    <td class="prog">PROG <br> Mart. Ca. JoJa <br> (1 B-301) <br> PROG</td>
+                                    <td class="ende">ENDE <br> Polo. Or, Ed <br> (1 B-301) <br> ENDE</td>
+                                    <td class="sisi" colspan="1.5">SISI <br> Mart. Ru, To <br> (1 B-301) <br> SISI</td>
+                                    <td class="sisi" colspan="1.5">SISI <br> Mart. Ru, To <br> (1 B-301) <br> SISI</td>
+                                   
+
+                                </tr>
+                                <tr>
+                                    <td class="hora"></td>
+                                    <td colspan="5" class="dia">RECREO</td>
+                                    
+
+                                </tr>
+                                <tr>
+                                    <td class="hora">9:10 <br> 10:05</td>
+                                    <td class="ende">ENDE <br> Polo. Or, Ed <br> (1 B-301) <br> ENDE</td>
+                                    <td class="prog">PROG <br> Mart. Ca. JoJa <br> (1 B-301) <br> PROG</td>
+                                    <td class="prog" rowspan="2">PROG <br> Mart. Ca. JoJa <br> (1 B-301) <br> PROG</td>
+                                    <td class="sisi" colspan="1.5">SISI <br> Mart. Ru, To <br> (1 B-301) <br> SISI</td>
+                                    <td class="sisi" colspan="1.5">SISI <br> Mart. Ru, To <br> (1 B-301) <br> SISI</td>
+                                    
+
+                                </tr>
+                                <tr>
+                                    <td class="hora">9:10 <br> 10:05</td>
+                                    
+                                    <td class="bdd" rowspan="2">BDD <br> Ber. Be, Cr <br> (1 B-301) <br> BDD</td>
+                                    <td class="bdd" rowspan="2">BDD <br> Ber. Be, Cr <br> (1 B-301) <br> BDD</td>
+                                    <td class="lm" rowspan="2">LMSG <br> Puli. Mo, FrJo <br> (1 B-301) <br>LMSG</td>
+                                    <td class="prog" rowspan="2">PROG <br> Mart. Ca. JoJa <br> (1 B-301) <br> PROG</td>
+                                    
+
+                                </tr>
+                                <tr>
+                                    <td class="hora">9:10 <br> 10:05</td>
+                                    <td class="fol">FOL <br> Prud. Ga, Es <br> (1 B-301) <br> FOL</td>
+                                    
+
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+            <div class="cb"></div>
+            <br>
+        </div>
+        <footer>
+            S1DAW - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
