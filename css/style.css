@@ -3,7 +3,7 @@ margin: 0;
 }
 #container {
     width: 80%;
-    margin: 0 auto 0 auto;
+    margin: auto auto auto auto;
 }
 header img {
 width: 100%;
@@ -25,14 +25,15 @@ nav {
 #contenido {
     background-color: rgb(68, 139, 53);
     width: 80%;
-    height: 100%;
-    margin-bottom: auto;
+    height: 100%%;
+    margin: auto auto auto auto;
     float: left;
 }
 #multimedia{
     background-color: rgb(68, 139, 53);
     width: 100%;
-    height: 720px;
+    height: 100%;
+    padding-bottom: 20%;
     float: left;
     
 }
@@ -47,14 +48,6 @@ text-align: center;
 padding: 6px;
 height: 50px;
 }
-#enlaces footer {
-    background-color: black;
-    color: gold;
-    font-size: 30px;
-    text-align: center;
-    padding: 6px;
-    height: 50px;
-    }
 #home h1{
     text-align: center;
     }
