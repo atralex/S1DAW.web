@@ -26,7 +26,7 @@ nav {
     background-color: rgb(68, 139, 53);
     width: 80%;
     height: 100%;
-    margin-bottom: 0px;
+    margin-bottom: auto;
     float: left;
 }
 #multimedia{
@@ -114,9 +114,6 @@ background-color: white;
     margin: auto 100px 10px 30px;
     font-size: 15px;
 }
-#tablas{
-    margin: 0 0 0 0;
-}
 #tablas h2{
     text-align: center;
     font-size: 25px;
@@ -129,7 +126,6 @@ background-color: white;
 #tablas table {
     width: 80%;
     margin: 0 auto 0 auto;
-
 }
 #tdef th {
     background-color: rgb(250, 148, 148);
@@ -334,4 +330,6 @@ body{
     width:  100px;
     height: 100px;
 }
-
+#contenido{
+  height: 100%;
+}
